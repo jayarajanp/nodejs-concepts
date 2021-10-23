@@ -14,6 +14,8 @@
 // TODO: Promises, async-await, CORS, fetch, mysql2
 
 import express from 'express' // 'npm install --save-dev @types/express needed for intellisense (not sure for import);
+// import * as fetch from 'node-fetch' // TODO: Use this somewhere
+// import * as cache from 'node-cache' // TODO: Use this somewhere
 import { Invariables } from './invariables.js' // import * as Inv from './invariables.js' ---> Imports everything into the namespace Inv
 import * as middlewares from './middlewares.js';
 import * as generic from './controllers/generic.js'
