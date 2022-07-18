@@ -9,7 +9,7 @@
 // package.json should have "type: 'module'" for ES6 import to work or use 'require'
 // Install eslint and execute for the first time using 'npx eslint --init'
 // const express = require('express') ---> Not required if ES6; 'import' is better because 'require' imports on runtime unlike 'import' and (so) also static analysis is not possible
-// Put semicolumn after your statement or JS will put it for you (Automatic Semicolon Injection) and that can cause unexpected problems
+// Put semicolumn after your statement or JS will put it for you (Automatic Semicolon Insertion) and that can cause unexpected problems [e.g. return { 'a': 1 }, if written in two line, would return 'undefined' since by JS automatically inserting ';' at the end of 'return', the JSON is not taken into account]
 
 // TODO: Promises, async-await, CORS, fetch, mysql2
 
